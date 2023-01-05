@@ -14,7 +14,7 @@ const skills = [
   {text: 'Django', basics: false, _id: 13},
   {text: 'Jquery', basics: false, _id: 14},
   {text: 'Bootstrap', basics: false, _id: 15},
-  {text: 'Mongoose', basics: false, _id: },
+  {text: 'Mongoose', basics: false, _id: 16},
 ]
 
 export { 
