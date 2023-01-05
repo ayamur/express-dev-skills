@@ -4,16 +4,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Dev Skills List</title>
 </head>
 <body>
-  <h1>Todos</h1>
+  <h1>Dev Skills List</h1>
   <ul>
-    <% todos.forEach(todo => { %>
+    <% skills.forEach(skill => { %>
       <li>
-				<%= todo.text %> 
+				<%= skill.text %> 
 				- 
-				<%= todo.done ? 'done' : 'not done' %>
+				<%= skill.basics ? 'learned' : 'not yet completed' %>
 			</li>
     <% }) %>
   </ul>
