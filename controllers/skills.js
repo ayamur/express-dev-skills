@@ -19,7 +19,7 @@ function newSkill(req, res) {
 
 function create(req, res) {
   req.body.done = false
-  Todo.create(req.body)
+  Skill.create(req.body)
   .then(skill => {
 		// Notice we are doing a redirect here!
     res.redirect('/skills')
