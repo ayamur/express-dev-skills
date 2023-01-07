@@ -1,7 +1,6 @@
 body {
   background-color:rgb(36, 26, 41);
   color: rgb(131, 255, 179);
-  padding: 50px;
   font: 25px "Chiller", Helvetica, Arial, sans-serif;
 }
 
@@ -22,4 +21,26 @@ a {
 	
 li {
   list-style: none;
+}
+
+.new {
+  background-color: rgb(60, 58, 189);
+  color: rgb(187, 255, 0);
+  font: 25px "Chiller", Helvetica, Arial, sans-serif;
+}
+
+#submit {
+width: 100px;
+border: 1px white;
+border-radius: 75%;
+}
+
+#input {
+width: 300px;
+}
+
+#add {
+  width: 150px;
+  border: 1px white;
+  border-radius: 75%;
 }
