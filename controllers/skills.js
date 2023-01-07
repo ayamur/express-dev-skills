@@ -21,7 +21,6 @@ function create(req, res) {
   req.body.done = false
   Skill.create(req.body)
   .then(skill => {
-		// Notice we are doing a redirect here!
     res.redirect('/skills')
   })
   .catch(error => {
