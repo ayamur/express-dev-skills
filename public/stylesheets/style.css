@@ -1,10 +1,25 @@
 body {
   background-color:rgb(36, 26, 41);
-  color: rgb(255, 0, 0);
+  color: rgb(131, 255, 179);
   padding: 50px;
   font: 25px "Chiller", Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #9bc9cc;
+  color: #5ee0e9;
+}
+
+.delete-form {
+  display: inline-block;
+  margin-right: 10px;
+}
+	
+.delete-form button {
+  color: red;
+  background-color: rgb(36, 26, 41);
+  outline: rgb(82, 236, 115) solid 3px;
+}
+	
+li {
+  list-style: none;
 }
